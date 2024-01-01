@@ -1,0 +1,10 @@
+/*
+    Add this CSS in the Custom CSS section in the Customize area
+*/
+.site-header-scroll {
+	background-color: #191919 !important; /*Change this color o suit your header style. This will be the color it will change to once the user starts scrolling*/
+	position: fixed !important;/* This will make the header stay in a fixed position*/
+	top: 0; /*This will keep the header on top of the page*/
+}
+
+/*Ensure that you include the !important declaration wherever I have included*/

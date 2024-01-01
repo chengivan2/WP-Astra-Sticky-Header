@@ -1,0 +1,1 @@
+# WP-Astra-Sticky-Header
