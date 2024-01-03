@@ -6,6 +6,7 @@
 	position: fixed !important;/* This will make the header stay in a fixed position*/
 	top: 0; /*This will keep the header on top of the page*/
 	width: 100% !important; /* In some browsers, the width might misbehave and change the width because o the change in code. So to be sure, make it 100%*/
+	z-index: 1001; /*Ensure the value of the header's z-index s the highest so that no body element goes over it as you scroll*/
 }
 
 /*Ensure that you include the !important declaration wherever I have included*/
